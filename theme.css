@@ -1,0 +1,298 @@
+@media (prefers-color-scheme: light) {
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    background: #e6e6e6;
+    color: #737373;
+}
+::selection {
+            background: rgba(0,0,0,.3);
+}
+.grey-boxed-title {
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+    margin-bottom: 0px !important;
+    margin: 10px !important;
+    background: rgba(0,0,0,.1);
+    border-radius: 20px;
+}
+.rainbow-line {
+    display: none;
+}
+.grey-boxed-title h1{
+  background: rgba(0,0,0,.4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeswap {
+  background-color: rgba(0,0,0,.1); /* Green */
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #808080;
+  font-family: montserrat;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  transition: 1s;
+}
+.themeswap:hover {
+  padding-left: 15px;
+}
+.static-box {
+    padding: 5px; 
+    padding-left: 20px;
+    margin: 0 0 0 0;
+    font-family: 'Montserrat';
+    color: #eee;
+    text-align: center;
+    line-height: .5;
+    z-index: 4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: slateblue;
+
+}
+.box {
+    background: rgba(0,0,0,.1);
+}
+.box p {
+    color: #737373 !important;
+}
+.box h1 {
+    color: #5a5a5a !important;
+}
+.terminal {
+    border-bottom-right-radius: 20px;
+    background: rgb(52,54,52) !important;
+    border-bottom-left-radius: 20px;
+}
+.infobox {
+    background: slateblue;
+    border-color: #737373 !important;
+    filter: brightness(.9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body > p {
+    color: #afafaf;
+}
+b span {
+  background: slateblue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body > h1 {
+      background: slateblue;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.general-box {
+    padding: 3%;
+}
+.container > p {
+    color: #737373 !important;
+}
+    /* light */
+.player button {
+    border-radius: 100px;
+    background: rgba(0,0,0,.1);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0);
+    padding: 5px;
+    margin: 2%;
+    margin-top: 5%;
+}
+.sidebuttondiv {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgba(0,0,0,.1);
+    color: #666;
+    border: 1px solid rgba(255,255,255,0);
+    padding: 5px;
+    width: 25%;
+}
+@media only screen and (max-width: 768px) {
+.static-box {
+    font-size: .8em;
+}
+.static-box h1 {
+    font-size: 2.3em;
+}
+.box p {
+    font-size: .8em;
+}
+.static-box h1{
+    font-size: 1.3em;
+}
+.box h1 {
+    font-size: 1.3em;
+}
+}
+}
+@media (prefers-color-scheme: dark) {
+    body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 1em;
+    background: #252525;
+    color: #afafaf;
+}
+::selection {
+            background: rgba(0,0,0,.3);
+}
+.grey-boxed-title {
+    border: none;
+    margin-top: 15px;
+    border-radius: 0px;
+    padding: 5px;
+    background: rgba(255,255,255,.06);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0;
+    margin-bottom: 3px !important;
+}
+.grey-boxed-title h1{
+  background: -webkit-linear-gradient(45deg, slateblue, blueviolet, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.themeswap {
+  background-color: rgba(255,255,255,.06); /* Green */
+  border: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: #c6c6c6;
+  font-family: montserrat;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+  transition: 1s;
+}
+.themeswap:hover {
+  padding-left: 15px;
+}
+
+.static-box {
+    padding: 5px; 
+    padding-left: 20px;
+    margin: 0 0 0 0;
+    font-family: 'Montserrat';
+    color: #fff;
+    text-align: center;
+    line-height: .5;
+    z-index: 4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: linear-gradient(45deg, darkslateblue, slateblue, red);
+    filter: brightness(.9);
+}
+.static-box{
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+    background-size: 300% 300%;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+.box {
+        background: rgba(255,255,255,.04);
+}
+.terminal {
+    border-bottom-right-radius: 20px;
+    background: rgb(30,30,30);
+    border-bottom-left-radius: 20px;
+}
+.infobox {
+    background: linear-gradient(45deg, darkslateblue, slateblue, red);
+    filter: brightness(.9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body > p {
+    color: #afafaf;
+}
+b span {
+  background: -webkit-linear-gradient(45deg, slateblue, blueviolet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+body > h1 {
+      background: -webkit-linear-gradient(45deg, slateblue, blueviolet, red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.general-box {
+    padding: 3%;
+}
+.uselessclasshover {
+    font-size: 1.8em;
+    transition: 1s;
+    padding-left: 4%;
+}
+.player button {
+    border-radius: 100px;
+    background: rgba(255,255,255,.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0);
+    padding: 5px;
+    margin: 2%;
+    margin-top: 5%;
+}
+.sidebuttondiv {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: rgba(255,255,255,.06);
+    color: #eee;
+    border: 1px solid rgba(255,255,255,0);
+    padding: 5px;
+    width: 25%;
+}
+@media only screen and (max-width: 768px) {
+.static-box {
+    font-size: .8em;
+}
+.static-box h1 {
+    font-size: 2.3em;
+}
+.box p {
+    font-size: .8em;
+}
+.uselessclasshover {
+    font-size: 1em;
+    transition: 2s;
+    padding-left: 4%;
+    padding-bottom: 4%;
+}
+.static-box h1{
+    font-size: 1.3em;
+}
+.box h1 {
+    font-size: 1.3em;
+}
+}
+    
+}
